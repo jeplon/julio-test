@@ -1,0 +1,332 @@
+/* -------------------- INFO -------------------- * /
+/*  
+Author: Julio Peral 
+URL: jeplon.co.uk 
+Date: 2012
+
+-------------------- CREDITS NOTES ------------------
+
+
+-Reset: Eric Meyer"s Reset Reloaded - thanks, Eric :D -
+			 http://meyerweb.com/eric/tools/css/reset/ 
+  			 v2.0 | 20110126
+  			 License: none (public domain)
+
+-------------------- TEMPLATE NOTES ------------------
+
+
+-------MEDIA QUERIES-------
+
+-------COLOURS -------
+
+
+------------------------- END INFO NOTES ---------------------- */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+:focus {
+	outline: 0;
+}
+body {
+	color: #000;
+	font-family:  VAGRouBla, arial, sans-serif;
+	font-size: 100%;
+	line-height: 1.4;
+	background: #000;
+}
+a:link, a:visited {
+	text-decoration: none;
+	color: #92278F;
+}
+a:hover, a:active, a:focus {
+	color: #0054A6;
+}
+/* -------------------------------------------------------------
+FONT Styling
+------------------------------------------------------------------*/
+@font-face {
+	font-family: VAGRouBla;
+	font-weight:;
+	src: url("../fonts/VAG/VAGRoundedStd-light.eot"); 
+}
+@font-face {
+	font-family: VAGRouBla;
+	font-weight: bold;
+	src: url('../fonts/VAG/VAGRoundedStd-Black.otf');
+}
+
+
+/* -------------------------------------------------------------
+Start Content Styling
+------------------------------------------------------------------*/
+
+/* -------------------------------------------------------------
+Wrap Styling
+------------------------------------------------------------------*/
+#wrap.bhome {
+	background: #0054A6;
+	background: #f90;
+}
+#wrap {
+	width: 90%;
+	max-width: 1024px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#wrap.bunder {
+	background: #8DC63F;
+}
+#wrap.badults {
+	background: #F58220;
+}
+/* -------------------------------------------------------------
+header Styling
+------------------------------------------------------------------*/
+#header {
+	background:  url(/images/river.png) no-repeat;
+	background-size: cover;
+	padding: 0em 0;
+	overflow: hidden;
+	
+}
+#header img {
+	float: left;
+	width: 66.4%;
+	height: auto;
+}
+#header h1 {
+	background: url(../images/logo.png) 1.5em 2.1em no-repeat;
+	background-size: 80%;
+	float: left;
+	margin: 0em 0 0 0;
+	padding: 4.9em 0;
+	text-indent: -9999px;
+	width: 33.6%;
+}
+
+/* -------------------------------------------------------------
+Nav Styling
+------------------------------------------------------------------*/
+#nav {
+	float: left;
+	width: 100%;
+	padding: .2em 0 0 .8em;
+	margin: ;
+	
+}
+#nav ul li{
+	background: #0054A6;
+	display: inline-block;
+	float: left;
+	font-size: 1.7em;
+	margin: 0;
+	padding: .5em 0em;
+	text-align: center;
+	width: 32.5%;
+} 
+#nav ul li.under{
+	background: #8DC63F;
+	width: 32.5%;
+}
+#nav ul li.adults{
+	background: #F58220;
+	width: 33%;
+}
+#nav ul li a {
+	color: #fff;
+	display: block;
+	font-weight: bold;
+}
+#nav ul li:hover, #nav ul li:active, #nav ul li:focus {
+	background: #92278F;
+}
+/* -------------------------------------------------------------
+Content Styling
+------------------------------------------------------------------*/
+#content {
+	background: #eceef7;
+	float: left;
+	border-width: 20px 0 0px 0;
+	-moz-border-image:    url(../images/border.png) 28 round;
+	-webkit-border-image: url(../images/border.png) 28 round;
+	-o-border-image:      url(../images/border.png) 28 round;
+	border-image:         url(../images/border.png) 28 round;
+	margin: 0 .65em;
+	padding: 1em 1em;
+}
+#content img {
+	margin: 2em 0;
+	width: 24.2%;
+	height: auto;
+}
+#content img.single {
+	margin: 2em 0;
+	width: 23%;
+	height: auto;
+}
+#content img.double {
+	margin: 2em 0;
+	width: 51.6%;
+	height: auto;
+}
+#content img.sticker {
+	float: right;
+	margin: -4em 0 0 0;
+	width: 8em;
+	height: auto;
+}
+
+#content h2 {
+	margin: .5em 0 0 0;
+	font-size: 2em;
+	font-weight: bold;
+}
+#content h3 {
+	margin: 0 0 .2em 0;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+#content p {
+	margin: .2em 0 1em 0;
+}
+#content ol {
+	list-style-type: square;
+	padding: 0 0 0 2em; 
+}
+/* -------------------------------------------------------------
+footer Styling
+------------------------------------------------------------------*/
+#footer {
+	background: #000;
+	border-width: 20px 0 0px 0;
+	-moz-border-image:    url(../images/border.png) 28 round;
+	-webkit-border-image: url(../images/border.png) 28 round;
+	-o-border-image:      url(../images/border.png) 28 round;
+	border-image:         url(../images/border.png) 28 round;
+	color: #fff;
+	clear: left;
+	padding: 1.5em;
+	text-align: center;
+}
+/*===============================================================
+MEDIA QUERIES
+===============================================================*/
+
+/*===============================================================
+STANDARD SIZE : DESKTOP / LAPTOP
+===============================================================*/
+
+@media (max-width: 900px) {
+	#wrap {
+		width: 100%;
+		min-width: 600px;
+		margin: 0 auto;
+		}
+
+	
+	/*===============================================================
+	NAV
+	===============================================================*/
+	#nav {
+		margin: -2em 0 0 0;
+	}
+	#nav ul li {
+		width: 31.2%;
+	}
+	
+	/*===============================================================
+	CONTENT
+	===============================================================*/
+	
+	#content {
+		margin: -.5em .65em 0 .65em;
+	}
+	
+	/*===============================================================
+	FOOTER
+	===============================================================*/
+	
+	#footer {
+		
+	}
+}
+
+/*===============================================================
+MOBILE
+===============================================================*/
+@media (max-width: 1024px) {
+	body {
+		
+	}
+	
+	/*===============================================================
+	HEADER
+	===============================================================*/
+	#header  {
+		
+	}
+	
+	/*===============================================================
+	NAV
+	===============================================================*/
+	#nav {
+	
+	}
+	
+	/*===============================================================
+	CONTENT
+	===============================================================*/
+	
+	#content {
+		
+	}
+	
+	/*===============================================================
+	FOOTER
+	===============================================================*/
+	
+	#footer {
+		
+		
+	}
+
+}
